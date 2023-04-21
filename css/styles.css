@@ -1,0 +1,122 @@
+* {
+    background-color: #8F9DA8;
+}
+
+header {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 1440px;
+}
+
+img {
+    width: 80%;
+}
+
+nav {
+    width: 50%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+ul a {
+    color: #000;
+}
+
+ul a:hover {
+    color: #fff;
+}
+
+#consulta {
+    margin: 30px auto;
+    width: 850px;
+    height: 480px;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+p{
+   color: #fff; 
+   font-size: 18px;
+}
+
+.fila {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+input {
+    width: 150px;
+    background-color: #fff;
+}
+
+.cantidad-resultados {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: none;
+}
+
+.btn {
+    width: 180px;
+    height: 50px;
+    background-color: #6B7D8B;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.derechos {
+    justify-self: end;
+    color: #fff;
+}
+
+#lista {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 850px;
+    height: 480px;
+}
+
+.titulo-centrado {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    font-size: 18px;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+}
+th {
+    border: 1px solid #000;
+}
+td {
+    border: 1px solid #000;
+}
+

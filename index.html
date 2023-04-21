@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Civil - altMkt.io</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://servicioselectorales.tse.go.cr/chc/imagenes/encabezado.png" alt="Encabezado Registro">
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Consultar Cédula</a></li>
+                <li><a href="#">Consultar Nombre</a></li>
+                <li><a href="#">Salir</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="consulta">
+        <h2>Favor digitar el Nombre de la Persona a Consultar</h2>
+        <p>(Acepta mayúsculas y minúsculas)</p>
+        <div class="fila">
+            <label for="">Nombre:</label>
+            <input type="text" placeholder="Digite el nombre ahora">
+            <label for="">1er Apellido:</label>
+            <input type="text" placeholder="Digite el primer apellido">
+            <label for="">2do Apellido:</label>
+            <input type="text" placeholder="Digite el segundo apellido">    
+        </div>
+
+        <span class="cantidad-resultados">Cantidad de Resultados a Mostrar: 50</span>
+        <button class="btn">Consultar</button>
+        <span class="derechos">TRIBUNAL SUPREMO DE ELECCIONES - DERECHOS RESERVADOS</span>
+    </section>
+    <section id="lista">
+        <h2 class="titulo-centrado">Lista de Personas Registradas</h2>
+        <table class="titulos">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo</th>
+                    <th>Puesto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jose</td>
+                    <td>Leandro</td>
+                    <td>josel@gmail.com</td>
+                    <td>Jr. SEO</td>
+                </tr>
+                <tr>
+                    <td>Mauricio</td>
+                    <td>Mc Clair</td>
+                    <td>mmclair@gmail.com</td>
+                    <td>Content Uploader</td>
+                </tr>
+                <tr>
+                    <td>Paz</td>
+                    <td>Araya</td>
+                    <td>paza@gmail.com</td>
+                    <td>SEO Product Manager</td>
+                </tr>
+                <tr>
+                    <td>Marconey</td>
+                    <td>Arguedas</td>
+                    <td>marconey@gmail.com</td>
+                    <td>SEO Project Manager</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
